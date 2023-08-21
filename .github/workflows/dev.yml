@@ -1,0 +1,10 @@
+name: Develop - Build and push
+on:
+  push:
+    branches: [main]
+job:
+  build-push-grc:
+    name: Build My Project
+    runs-on: ubuntu-latest
+    steps:
+      -run: echo Hello world
